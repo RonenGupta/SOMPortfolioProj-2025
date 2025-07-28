@@ -1,0 +1,53 @@
+html, body {
+    background-color: #1e1e1e !important;
+    margin: 0;
+}
+
+ul {
+    gap: 10px;
+}
+
+li:hover {
+    animation: bounce 1s ease;
+    animation-fill-mode: both;
+}
+
+
+#img {
+    width: 50px;
+    margin-right: 1300px;
+}
+
+#img:hover {
+    transform: translateY(-20px);
+}
+
+.descelements {
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#desc h2, p{
+    color: white;
+
+}
+
+#descimg img{
+    width: 300px;
+    }
+
+#shortdesc h2{
+    color: white;
+    margin-top: 200px;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin-top: 500px;
+    font-size: 2;
+
+}
