@@ -22,54 +22,69 @@ li:hover {
     transform: translateY(-20px);
 }
 
-.scrolling-text-container {
-    background-color: #eff5ff;
-    border-radius: 4px;
-    overflow: hidden;
+    .title {
+        color: white;
+        justify-content: center;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .scrolling-text-container {
+        background-color: white;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    .scrolling-text-inner {
+        display: flex;
+        white-space: nowrap;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 8px 0;
+    }
+
+    .scrolling-text {
+        display: flex;
+    }
+
+    .scrolling-text-item {
+        padding: 0 30px;
+    }
+
+    .scrolling-text-inner > div {
+        animation: var(--direction) var(--marquee-speed) linear infinite;
+    }
+
+    .scrolling-text-container:hover .scrolling-text-inner > div {
+        animation-play-state: paused;
+    }
+
+
+    @keyframes scroll-right {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(0%);
+        }
+    }
+
+    .about-section { 
+    text-align: center;
     justify-content: center;
-    margin-top: 100px;
-}
+    color: white;
 
-.scrolling-text-inner {
-    display: flex;
-    white-space: nowrap;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 8px 0;
-}
+  }
 
-.scrolling-text {
-    display: flex;
-}
-
-.scrolling-text-item {
-    padding: 0 30px;
-}
-
-.scrolling-text-inner>div {
-    animation: var(--direction) var(--marquee-speed) linear infinite;
-}
-
-.scrolling-text-container:hover .scrolling-text-inner>div {
-    animation-play-state: paused;
-}
-
-@keyframes scroll-left {
-    0% {
-        transform: translateX(0%);
+    #Who {
+        margin-top: 100px;
     }
 
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
-@keyframes scroll-right {
-    0% {
-        transform: translateX(-100%);
+    #Education {
+        margin-top: 150px;
     }
 
-    100% {
-        transform: translateX(0%);
+    #Skills {
+        margin-top: 200px;
     }
-}
+  
