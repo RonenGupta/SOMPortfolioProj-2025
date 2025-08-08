@@ -8,7 +8,6 @@ ul {
 }
 
 li:hover {
-    animation: bounce 1s ease;
     animation-fill-mode: both;
 }
 
@@ -30,6 +29,11 @@ li:hover {
 
 #desc h2, p{
     color: white;
+    margin-top: 100px;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 20px;
 
 }
 
@@ -40,14 +44,27 @@ li:hover {
 #shortdesc h2{
     color: white;
     margin-top: 200px;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 20px;
 }
 
-.footer {
-    color: white;
-    text-align: center;
-    width: 100%;
-    color: white;
-    margin-top: 500px;
-    font-size: 2;
 
-}
+  .contacts-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        gap: 10px;
+    }
+
+    .contacts-section a {
+        font-size: 30px; 
+        color: white; 
+        text-decoration: none;
+    }
+
+    .contacts-section a:hover {
+        color: gray;
+    }

@@ -8,7 +8,6 @@ ul {
 }
 
 li:hover {
-    animation: bounce 1s ease;
     animation-fill-mode: both;
 }
 
@@ -76,15 +75,28 @@ li:hover {
 
   }
 
-    #Who {
+    #border {
         margin-top: 100px;
+        border: 2px solid white;
+        border-radius: 50px;
+        display: inline-block;
+        padding: 20px;
     }
 
-    #Education {
-        margin-top: 150px;
+    .contacts-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        gap: 10px;
     }
 
-    #Skills {
-        margin-top: 200px;
+    .contacts-section a {
+        font-size: 30px; 
+        color: white; 
+        text-decoration: none;
     }
-  
+
+    .contacts-section a:hover {
+        color: gray;
+    }
