@@ -101,3 +101,18 @@ li:hover {
     .contacts-section a:hover {
         color: gray;
     }
+
+    .certifications-section h2 {
+        padding: 50px;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards {
+        display: flex;
+        padding: 50px;
+        gap: 50px;
+
+    }
