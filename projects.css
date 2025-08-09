@@ -1,0 +1,48 @@
+html, body {
+    background-color: #1e1e1e !important;
+    margin: 0;
+}
+
+ul {
+    gap: 10px;
+}
+
+li:hover {
+    animation-fill-mode: both;
+}
+
+
+#img {
+    width: 50px;
+    margin-right: 1300px;
+    position: relative;
+}
+
+#img:hover {
+    transform: translateY(-20px);
+}
+
+.contacts-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 10px;
+}
+
+.contacts-section a {
+    font-size: 30px; 
+    color: white; 
+    text-decoration: none;
+}
+
+.contacts-section a:hover {
+    color: gray;
+}
+
+.projects h2 {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
