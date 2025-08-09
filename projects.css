@@ -56,3 +56,10 @@ li:hover {
         display: inline-block;
         padding: 20px;
 }
+
+.cards {
+        justify-content: center;
+        display: flex;
+        padding: 50px;
+        gap: 50px;
+    }
