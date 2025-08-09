@@ -14,8 +14,8 @@ li:hover {
 
 #img {
     width: 50px;
-    margin-right: 1300px;
-    position: relative;
+    position: fixed;
+    margin-left: 100px;
 }
 
 #img:hover {
@@ -40,9 +40,19 @@ li:hover {
     color: gray;
 }
 
-.projects h2 {
-    color: white;
-    justify-content: center;
+.projects {
     align-items: center;
     text-align: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#border {
+        margin-top: 100px;
+        border: 2px solid white;
+        border-radius: 50px;
+        display: inline-block;
+        padding: 20px;
 }

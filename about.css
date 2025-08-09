@@ -14,8 +14,8 @@ li:hover {
 
 #img {
     width: 50px;
-    margin-right: 1300px;
-    position: relative;
+    position: fixed;
+    margin-left: 100px;
 }
 
 #img:hover {
@@ -31,8 +31,12 @@ li:hover {
 
     .scrolling-text-container {
         background-color: white;
+        display: flex;
+        flex-direction: column;
         border-radius: 4px;
         overflow: hidden;
+        max-width: 1250px;
+        margin: 0 auto;
     }
 
     .scrolling-text-inner {
@@ -41,6 +45,8 @@ li:hover {
         font-size: 16px;
         font-weight: 600;
         padding: 8px 0;
+        width: fit-content;
+        max-width: 1250px;
     }
 
     .scrolling-text {
@@ -69,10 +75,13 @@ li:hover {
         }
     }
 
-    .about-section { 
+    .about-section {
+    align-items: center;
     text-align: center;
     justify-content: center;
     color: white;
+    display: flex;
+    flex-direction: column;
 
   }
 
@@ -111,8 +120,9 @@ li:hover {
     }
 
     .cards {
+        justify-content: center;
+        align-items: center;
         display: flex;
         padding: 50px;
         gap: 50px;
-
     }

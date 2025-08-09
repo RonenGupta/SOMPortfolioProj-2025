@@ -14,8 +14,8 @@ li:hover {
 
 #img {
     width: 50px;
-    margin-right: 1300px;
-    position: relative;
+    position: fixed;
+    margin-left: 100px;
 }
 
 #img:hover {
