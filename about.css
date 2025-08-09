@@ -122,6 +122,8 @@ li:hover {
     .cards {
         justify-content: center;
         display: flex;
+        flex-wrap: wrap;
         padding: 50px;
         gap: 50px;
     }
+
