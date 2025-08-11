@@ -124,6 +124,8 @@ nav.navbar {
         display: flex;
         padding: 50px;
         gap: 50px;
+        position: relative;
+        z-index: 1;
     }
 
     @media (max-width: 768px) {
@@ -132,11 +134,15 @@ nav.navbar {
             align-items: center;
             padding: 20px;
             gap: 30px;
+            position: relative;
+            z-index: 1;
         }
 
         .card {
             width: 90%;
             max-width: 400px;
+            position: relative;
+            z-index: 1;
         }
     }
 
