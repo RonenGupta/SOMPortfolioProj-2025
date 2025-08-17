@@ -1,0 +1,62 @@
+html, body {
+    background-color: #1e1e1e !important;
+    margin: 0;
+}
+
+ul {
+    gap: 10px;
+}
+
+nav.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+li:hover {
+    animation-fill-mode: both;
+}
+
+.contacts-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 10px;
+}
+
+.blogelements {
+    margin: 100px auto;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    width: fit-content;
+    text-align: center;
+}
+
+#titleblog h2 {
+    color: white;
+    padding: 20px;
+
+}
+
+#mainblog p{
+    color: white;
+    padding: 20px;
+}
+
+span {
+    color: white;
+}
+
+
+
+.contacts-section a {
+    font-size: 30px; 
+    color: white; 
+    text-decoration: none;
+}
+
+ .contacts-section a:hover {
+    color: gray;
+}
