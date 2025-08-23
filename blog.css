@@ -46,18 +46,45 @@ li:hover {
     padding: 20px;
 }
 
-.blogUI, .blogcontext{
+.blogUI {
     align-items: left;
+    width: 400px;
     padding: 20px;
     border: transparent 2px solid;
     border-radius: 50px;
-    width: 100%;
-    max-width: 500px;
-    height: auto;
+}
+
+.blogcontext {
+    align-items: right;
+    width: 500px;
     padding: 20px;
-    display: block;
-    margin: 0 auto;
-    box-sizing: border-box;
+    border: transparent 2px solid;
+    border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+    .blogelements {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .blogUI {
+        width: 80%;
+        max-width: 80%;
+        padding: 20px;
+        border: transparent 2px solid;
+        border-radius: 50px;
+    }
+
+    .blogcontext {
+        width: 85%;
+        max-width: 85%;
+        padding: 20px;
+        border: transparent 2px solid;
+        border-radius: 50px;
+    }
 }
 
 #imageblog h3 {
