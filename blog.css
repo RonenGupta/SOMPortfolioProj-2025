@@ -67,6 +67,21 @@ li:hover {
         width: 95%;
         margin: 50px auto;
     }
+
+    .blogUI {
+        width: 90%;
+        max-width: 90%;
+        padding: 20px;
+        border: transparent 2px solid;
+        border-radius: 50px;
+    }
+
+    .blogcontext {
+        width: 95%;
+        padding: 20px;
+        border: transparent 2px solid;
+        border-radius: 50px;
+    }
 }
 
 #imageblog h3 {
