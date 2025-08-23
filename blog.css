@@ -63,13 +63,14 @@ li:hover {
 }
 
 @media screen and (max-width: 480px) {
-    .blogUI .blogcontext{
-    width: 50%;
-    padding: 20px;
-    border: transparent 2px solid;
-    border-radius: 50px;
-    }
+    .blogUI .blogcontext img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
 }
+
+    }
 
 
 #imageblog h3 {
