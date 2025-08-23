@@ -46,31 +46,27 @@ li:hover {
     padding: 20px;
 }
 
-.blogUI {
-    align-items: left;
-    width: 400px;
-    padding: 20px;
-    border: transparent 2px solid;
-    border-radius: 50px;
-}
-
-.blogcontext {
-    align-items: right;
-    width: 500px;
-    padding: 20px;
-    border: transparent 2px solid;
-    border-radius: 50px;
-}
-
-@media screen and (max-width: 480px) {
-    .blogUI .blogcontext img{
-    max-width: 100%;
+.blogUI .blogcontext {
+    width: 100%;
+    max-width: 600px;
     height: auto;
     display: block;
+    margin: 20px auto;
     border-radius: 20px;
 }
 
+
+
+@media screen and (max-width: 480px) {
+    .blogUI .blogcontext {
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
     }
+}
 
 
 #imageblog h3 {
