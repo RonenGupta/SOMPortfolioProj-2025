@@ -71,16 +71,16 @@ li:hover {
     }
 
     .blogUI {
-        width: 80%;
-        max-width: 80%;
+        width: 90%;
+        max-width: 90%;
         padding: 20px;
         border: transparent 2px solid;
         border-radius: 50px;
     }
 
     .blogcontext {
-        width: 85%;
-        max-width: 85%;
+        width: 95%;
+        max-width: 95%;
         padding: 20px;
         border: transparent 2px solid;
         border-radius: 50px;
