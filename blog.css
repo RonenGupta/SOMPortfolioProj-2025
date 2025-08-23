@@ -29,8 +29,10 @@ li:hover {
     margin: 100px auto;
     border: 2px solid white;
     border-radius: 50px;
-    width: fit-content;
+    max-width: 100%;
+    width: 90%;
     text-align: center;
+    box-sizing: border-box;
 }
 
 #titleblog h2 {
@@ -59,6 +61,16 @@ li:hover {
     border: transparent 2px solid;
     border-radius: 50px;
 }
+
+@media screen and (max-width: 480px) {
+    .blogUI .blogcontext{
+    width: 50%;
+    padding: 20px;
+    border: transparent 2px solid;
+    border-radius: 50px;
+    }
+}
+
 
 #imageblog h3 {
     padding: 20px;
